@@ -1,0 +1,17 @@
+.nav-container{
+  background: orange;
+  margin-bottom: 20px;
+}
+.nav-container a{
+  color: white;
+}
+
+.nav{
+  background: none;
+  box-shadow: none;
+}
+
+.btn{
+  margin-top: 3px;
+  margin-bottom: 3px;
+}

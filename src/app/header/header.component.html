@@ -1,0 +1,20 @@
+<div class="nav-container container-fluid">
+  <div class="row">
+    <div class="col navbar-left">
+      <nav class="nav">
+        <a class="nav-link" routerLink="/" routerLinkActive="active">Home</a>
+        <a class="nav-link" routerLink="/tableview" routerLinkActive="active">Employee View</a>
+        <a class="nav-link" routerLink="/userprofile" routerLinkActive="active">User Profile</a>
+      </nav>
+    </div>
+    <div class="col navbar-right">
+      <div class="d-flex justify-content-end">
+        <nav class="nav">
+            <a class="nav-link" routerLink="/signup">Register</a>
+            <a class="nav-link" routerLink="/login">Sign In</a>
+            <button (click)='logout()' class="btn btn-light">Logout</button>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>
